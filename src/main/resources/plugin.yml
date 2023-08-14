@@ -1,0 +1,17 @@
+name: Spectator
+version: '${project.version}'
+main: tech.yfshadaow.spectator.Spectator
+authors: [YFshadaow]
+commands:
+  pg:
+    description: Switch spectator mode
+permissions:
+  pg.use:
+    description: Allows access to /pg command
+    default: op
+  pg.reload:
+    description: Allows reloading for Spectator
+    default: op
+  pg.bypass:
+    description: Allows bypassing command prohibition when in spectator mode
+    default: op
